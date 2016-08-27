@@ -6,7 +6,7 @@ from antlr4.tree.Trees import Trees
 
 
 def main():
-    lexer = monitorddblexer(FileStream("input.json"))
+    lexer = monitorddblexer(FileStream("samplelanguage.json"))
     stream = antlr4.CommonTokenStream(lexer)
     parser = monitorddbparser(stream)
     tree = parser.root()

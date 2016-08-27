@@ -3,7 +3,14 @@
 		"DynamoDB" : {
 			"Tables" : {
 				"Table" : {
-					"TableName" : "Eventos-m[1]"
+					"TableName" : "Eventos-10-2014",
+					"Adjustments" : { 
+						"Adjustment" : {
+							"Method" : "requested",
+							"ChangeTime" : "20:30",
+							"Units" : "300rw"
+						}
+					}
                                 }
  			}
 		}
