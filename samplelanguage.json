@@ -1,0 +1,21 @@
+{
+
+	"us-east-1" : {
+		"DynamoDB" : {
+			"Tables" : {
+				"Table" : {
+					"TableName" : "Eventos-y[1]-2016",
+					"Adjustments" : {
+						"Adjustment" : {
+							"Method" : "scheduled",
+							"ChangeTime" : "00:20",
+							"Units" : "300w"
+						}
+					}
+				}	
+
+			} 
+		}
+	} 
+
+}

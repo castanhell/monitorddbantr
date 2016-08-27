@@ -1,0 +1,11 @@
+{
+	"us-east-1" : {
+		"DynamoDB" : {
+			"Tables" : {
+				"Table" : {
+					"TableName" : "Eventos-m[1]"
+                                }
+ 			}
+		}
+	}
+}
